@@ -1,6 +1,21 @@
 # Smart Adaptive Backend for OpenAudio S1-Mini (S1 Velocity)
 
+[![License: Apache 2.0](https://img.shields.io/badge/License-Apache%202.0-blue.svg)](https://opensource.org/licenses/Apache-2.0)
+[![Python 3.10+](https://img.shields.io/badge/Python-3.10%2B-green.svg)](https://www.python.org/)
+[![Framework: Fish-Speech](https://img.shields.io/badge/Framework-Fish--Speech-orange.svg)](https://github.com/fishaudio/fish-speech)
+[![MIT Licensed](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
+
+<p align="center">
+  <img src="assets/figures/thesis_figures/fig1_system_architecture.svg" alt="S1-Velocity System Architecture" width="800">
+</p>
+
 A production-ready inference framework that enables efficient Text-to-Speech (TTS) and zero-shot voice cloning on consumer hardware. Designed to solve common out-of-memory errors and performance paradoxes on devices spanning from 4GB NVIDIA GPUs to Apple M-Series chips and Intel CPUs.
+
+## Languages Supported
+The core framework supports following languages via the OpenAudio S1-Mini engine:
+`English`, `Chinese`, `Japanese`, `Korean`, `French`, `German`, `Spanish`, `Arabic`.
+
+---
 
 ## The Problem 
 Modern Large Language Models (LLMs) and neural TTS like OpenAudio S1-Mini typically require expensive server-grade hardware, making them inaccessible for many. When run on consumer devices, users often face:
