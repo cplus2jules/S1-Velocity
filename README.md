@@ -5,9 +5,6 @@
 [![Framework: Fish-Speech](https://img.shields.io/badge/Framework-Fish--Speech-orange.svg)](https://github.com/fishaudio/fish-speech)
 [![MIT Licensed](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 
-<p align="center">
-  <img src="assets/figures/thesis_figures/fig1_system_architecture.svg" alt="S1-Velocity System Architecture" width="800">
-</p>
 
 A production-ready inference framework that enables efficient Text-to-Speech (TTS) and zero-shot voice cloning on consumer hardware. Designed to solve common out-of-memory errors and performance paradoxes on devices spanning from 4GB NVIDIA GPUs to Apple M-Series chips and Intel CPUs.
 
